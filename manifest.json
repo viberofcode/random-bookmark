@@ -1,0 +1,18 @@
+{
+  "name": "Open Random Bookmark",
+  "description": "Opens a random bookmarked website in the current tab.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "bookmarks",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "service_worker.js"
+    ]
+  },
+  "action": {
+    "default_icon": "bookmark_icon.png"
+  }
+}
