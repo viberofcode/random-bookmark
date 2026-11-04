@@ -14,5 +14,15 @@
   },
   "action": {
     "default_icon": "bookmark_icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@random_bookmark",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
   }
 }
